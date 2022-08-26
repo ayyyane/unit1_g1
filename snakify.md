@@ -12,3 +12,19 @@ print(a%10)
 ``` 
 
 Image of the results
+
+## Tens
+
+Given an integer. Print its tens digit.
+
+```.py
+# Read an integer:
+number = int(input())
+
+number = number//10 # integer division
+answer = number%10 
+print(answer)
+
+```
+![](evidence_exercise_1.jpg)
+Fig. 1 This is the evidence 
