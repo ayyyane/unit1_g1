@@ -16,6 +16,24 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 Design statement:
 I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
+** add a description of your coin and citation **
+| Developer | Digital Coin |
+|-----------|--------------|
+| Alex      | Bitcoin      |
+| Bernard   | Ethereum     |
+| Yutaro    | Dogecoin     |
+| Verlon    | Apecoin      |
+| Oswell    | Tether       |
+| Thumula   | Tron         |
+| Ainee     | Mana         |
+| Lison     | Solana       |
+| Sabu      | Binance      |
+| Emmy      | Polkadot     |
+| Maria     | Cardano      |
+| Zelan     | Cosmos       |
+| Manahil   | BinanceUSD   |
+| Krish     | UsdCoin      |
+
 Justify the tools/structure of your solution
 
 ## Success Criteria
