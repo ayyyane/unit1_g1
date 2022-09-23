@@ -11,6 +11,14 @@ Ms. Sato is a local trader who is interested in the emerging market of cryptocur
 
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
 
+An example of the data stored is 
+
+| Date | Description | Category | Amount  |
+|------|-------------|----------|---------|
+| Sep 23 2022 | bought a house | Expenses | 10 BTC |
+| Sep 24 2022 | food for house celebration | Food | 0.000001 BTC |
+
+
 ## Proposed Solution
 
 Design statement:
