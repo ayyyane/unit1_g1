@@ -10,7 +10,18 @@
 Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however at the moment she is tracking all his transaction using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics. 
 
 Apart for this requirements, Ms Sato is open to explore a cryptocurrency selected by the developer.
-
+| Name   | Coin            |   | Name | Coin |
+|--------|-----------------|---|------|------|
+| Keeler | ETH             |   |      |      |
+| Rocky  | DOGE            |   |      |      |
+| Yuiko  | BNB(Binance)    |   |      |      |
+| Jan    | Tether (USDT)   |   |      |      |
+| Antoni | XRP(Ripple)     |   |      |      |
+| Victor | Cardano (ADA)   |   |      |      |
+| Manaha | LTC (LIte Coin) |   |      |      |
+| Marina | Solano (SOL)    |   |      |      |
+| May    | (DAI)           |   |      |      |
+| Ayane  | Zcash (ZEC)     |   |      |      |
 An example of the data stored is 
 
 | Date | Description | Category | Amount  |
