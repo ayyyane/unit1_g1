@@ -22,6 +22,14 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 | Marina | Solano (SOL)    |   |      |      |
 | May    | (DAI)           |   |      |      |
 | Ayane  | Zcash (ZEC)     |   |      |      |
+| Yosuke  | USD COIN  (USDC)  |   |      |      |
+| Naomi  |  TRX Tron       |   |      |      |
+| Amine  |  KLIMA          |   |      |      |
+
+| Dylan  | Monero XMR    |   |      |      |
+| Yoshi  | Shiba Inu (SHIB)    |   |      |      |
+
+
 An example of the data stored is 
 
 | Date | Description | Category | Amount  |
