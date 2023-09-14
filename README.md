@@ -60,36 +60,34 @@ Justify the tools/structure of your solution
 ## System Diagram
 
 ## Flow Diagrams
-
+[image]
+**Fig. 1** This is the flow diagram for the login system
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
+| Task No | Planned Action        | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|---------|-----------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 24                 | B         |
+| 2       | Create a login System | To have a flow diagram and the code for the login system                                 | 30 min        | Sep 14                 | B, C      |
 
 # Criteria C: Development
 
 ## Login System
-My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. More description of the code....
+My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. 
+
+AS you can sere in the flow diagram in **Fig 1**, In th first line I am defining a function called try_login, this function has two inputs of type string, and the output is a boolean representing True if the
+user logins correctly or false otherwise. This is saved in the variable success. Then in line two...this is your work.
 ```.py
-def simple_login(user:str, password:str)->bool:
-    '''
-    Simple authentication, needs fle user.csv
-    :param user: string
-    :param password: string
-    :return: True/False if user is in database
-    '''
-    with open("user.csv") as file:
-        database = file.readlines()
-    output = False
-    for line in database:
-        line_cleaned = line.strip() #remove \n
-        user_pass = line_cleaned.split(",")
-        if user == user_pass[0] and password == user_pass[1]:
-            output = True
+def try_login(name:str, password:str)->bool:
+    with open('user.csv',mode='r') as f:
+        data = f.readlines()
+
+    success = False
+    for line in data:
+        uname = line.split(',')[0]
+        upass = line.split(',')[1].strip() #strip() removes \n
+        if uname == name and upass == password:
+            success = True
             break
-
-    return output
-
+    return success
 
 ```
