@@ -51,9 +51,9 @@ Justify the tools/structure of your solution
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The graph which shows the rate
+5. The graph which shows the benefit (the difference between the rate person bought and now)
+6. The chart compared with other electric money
 
 # Criteria B: Design
 
